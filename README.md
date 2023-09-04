@@ -132,7 +132,7 @@ Contains the `binary_tree_sibling` function.
 
 - `binary_tree_t *binary_tree_sibling(binary_tree_t *node)`: Finds the sibling of a node.
 
-### (Task number)-main.c (Not to be pushed to the repo)
+### (task number)-main.c (Not to be pushed to the repo)
 
 Example main files for testing each function respectively.
 
