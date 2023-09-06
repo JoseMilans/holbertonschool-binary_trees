@@ -18,12 +18,12 @@ size_t binary_tree_size(const binary_tree_t *tree)
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
-	if (!tree)
-		return (0);
 	const binary_tree_t **queue;
 	size_t front = 0, back = 0, tree_size;
 	int flag = 0;
 
+	if (!tree)
+		return (0);
 	tree_size = binary_tree_size(tree);
 	queue = malloc(sizeof(*queue) * tree_size);
 	if (!queue)
